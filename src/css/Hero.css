@@ -1,0 +1,10 @@
+section.Hero img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width:1024px) {
+    section.Hero img {
+        height: 220px;
+    }
+}

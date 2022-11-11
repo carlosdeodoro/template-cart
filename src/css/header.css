@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1299px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    align-items: center;
+}
+
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.header li img {
+    height: 23px;
+}
+
+@media (max-width:1299px) {
+    .container {
+        margin: auto 32px;
+    }
+
+    .header {
+        height: 82px;
+    }
+
+    .logo img {
+        height: 21px;
+    }
+
+    .header li img {
+        height: 16px;
+    }
+
+    .header li.icon-carrinho {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,126 @@
+.title-section {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-section h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: #161616;
+}
+
+.title-section span {
+    font-size: 18px;
+    color: #161616;
+}
+
+.borda {
+    width: 100%;
+    height: 1px;
+    background-color: #dad6d6;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin: 57px auto;
+}
+
+.product-cards img {
+    object-fit: cover;
+}
+
+.product-cards .product-description h3 {
+    font-size: 22px;
+    margin-top: 23px;
+    line-height: 26px;
+    color: #161616;
+}
+
+.product-cards .product-description p {
+    font-size: 20px;
+    color: #161616;
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.product-cards .product-description span {
+    font-size: 25px;
+    color: #5CA720;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .title-section h2 {
+        font-size: 14px;
+    }
+
+    .title-section span {
+        font-size: 12px;
+    }
+
+    .product-cards .item-card, .product-cards img{
+        width: 126px;
+    }
+
+    .product-cards .product-description h3 {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .product-cards .product-description p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .product-cards .product-description p span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 640px) {
+    .product-cards {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 410px) {
+    .product-cards {
+        gap: 35px;
+    }
+
+    .title-section h2 {
+        font-size: 20px;
+    }
+
+    .title-section span {
+        font-size: 18px;
+    }
+    
+    .product-cards{
+        margin: 25px auto;
+    }
+
+    .product-cards .item-card, .product-cards img{
+        width: 100%;
+    }
+
+    .product-cards .product-description h3 {
+        font-size: 22px;
+    }
+
+    .product-cards .product-description p {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .product-cards .product-description p span{
+        font-size: 25px;
+    }
+}
